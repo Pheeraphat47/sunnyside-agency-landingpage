@@ -6,7 +6,7 @@ function SectionTwo() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2">
       <div className="left row-start-2 row-end-3 lg:col-start-1 lg:col-end-2">
-        <img className="w-full" src={imgStandOut} alt="stand out" />
+        <img className="w-full h-full" src={imgStandOut} alt="stand out" />
       </div>
 
       <div className="right flex justify-center items-center p-[5rem] row-start-1 row-end-2 lg:row-start-2 lg:row-end-3">
@@ -27,4 +27,5 @@ function SectionTwo() {
 }
 
 export default SectionTwo;
+
 
