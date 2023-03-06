@@ -8,7 +8,7 @@ function Footer() {
 
 
   return (
-    <footer className="bg-[#76BCAE]  flex text-center justify-center p-[3rem]">
+    <footer className="bg-[#76BCAE]  flex text-center justify-center p-[3rem]" id="contact">
       <div>
         <h3 className="font-bold text-[#25564B] text-4xl mb-3">sunnyside</h3>
         <ul className="flex my-[3rem]">

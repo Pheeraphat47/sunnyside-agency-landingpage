@@ -3,7 +3,7 @@ import imgTransform from "../assets/images/desktop/image-transform.jpg";
 
 function SectionOne() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2">
+    <div className="grid grid-cols-1 lg:grid-cols-2" id="about">
       <div className="left flex justify-center items-center p-4 lg:p-10">
         <div>
           <h3 className="text-5xl lg:text-6xl" style={{fontFamily: 'Fraunces'}}>Transfrom your brand</h3>

@@ -2,7 +2,7 @@ import React from "react";
 
 function SectionThree() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 h-screen lg:h-[700px]">
+    <div className="grid grid-cols-1 lg:grid-cols-2 h-screen lg:h-[700px]" id="services">
       <div className="left flex justify-center items-end p-4 lg:px-10 lg:pb-20 text-center bg-sec-three-left bg-cover bg-center">
         <div>
           <h3 className="text-3xl mb-4 text-[#25564B]" style={{fontFamily: 'Fraunces'}}>Graphic Design</h3>
