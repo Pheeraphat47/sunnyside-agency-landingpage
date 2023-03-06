@@ -8,6 +8,8 @@ module.exports = {
     extend: {
       backgroundImage:{
         'header': "url('./src/assets/images/desktop/image-header.jpg')",
+        'sec-three-left': "url('./src/assets/images/desktop/image-graphic-design.jpg')",
+        'sec-three-right': "url('./src/assets/images/desktop/image-photography.jpg')",
       }
     },
   },

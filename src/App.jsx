@@ -5,6 +5,8 @@ import './App.css'
 // Components
 import Header from './components/Header';
 import SectionOne from './components/SectionOne';
+import SectionTwo from './components/SectionTwo';
+import SectionThree from './components/SectionThree';
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
     <div className="App">
       <Header/>
       <SectionOne/>
+      <SectionTwo/>
+      <SectionThree/>
     </div>
   )
 }
