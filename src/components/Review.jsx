@@ -32,7 +32,9 @@ const userData = [
 function Review() {
   return (
     <div className="text-center py-[10rem] px-[3rem] lg:px-[5rem]">
-      <h3 className="uppercase text-2xl font-bold md:text-3xl">Client testimonials</h3>
+      <h3 className="uppercase text-2xl font-bold md:text-3xl">
+        Client testimonials
+      </h3>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-[5rem] md:gap-[2rem]">
         {userData.map((data, key) => (
           <div key={data.name} className="py-[2rem] lg:py-[5rem]">
