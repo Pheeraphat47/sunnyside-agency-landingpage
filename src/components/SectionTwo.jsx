@@ -12,12 +12,12 @@ function SectionTwo() {
       <div className="right flex justify-center items-center p-[5rem] row-start-1 row-end-2 lg:row-start-2 lg:row-end-3">
         <div>
           <h3 className="text-5xl"> Stand out to the right audience</h3>
-          <p className="text-gray-500 my-[2rem]">
+          <p className="text-gray-500 my-4 lg:my-8 lg:text-xl" style={{fontFamily: 'Barlow'}}>
             Using a collaborative formula of designers, researchers,
             photographers, videographers, and copywriters, we’ll build and
             extend your brand in digital places.
           </p>
-          <a href="#" className="border-b-4 border-b-pink-500">
+          <a href="#" className="border-b-4 border-b-pink-500 text-xl font-bold uppercase" style={{fontFamily: 'Fraunces'}}>
             Learn more
           </a>
         </div>

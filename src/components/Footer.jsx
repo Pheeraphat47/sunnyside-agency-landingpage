@@ -10,8 +10,8 @@ function Footer() {
   return (
     <footer className="bg-[#76BCAE]  flex text-center justify-center p-[3rem]">
       <div>
-        <h3 className="font-bold text-[#25564B] text-3xl">sunnyside</h3>
-        <ul className="flex my-[2rem]">
+        <h3 className="font-bold text-[#25564B] text-4xl mb-3">sunnyside</h3>
+        <ul className="flex my-[3rem]">
           <li className="mx-[1rem]  text-[#25564B] text-lg">
             <a href="#">About</a>
           </li>
@@ -23,7 +23,7 @@ function Footer() {
           </li>
         </ul>
 
-        <ul className="flex justify-evenly">
+        <ul className="flex justify-evenly mt-24">
           <li>
             <a href="#">
               <img src={fbicon} alt="facebook" />

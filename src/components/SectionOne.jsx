@@ -6,13 +6,13 @@ function SectionOne() {
     <div className="grid grid-cols-1 lg:grid-cols-2">
       <div className="left flex justify-center items-center p-4 lg:p-10">
         <div>
-          <h3 className="text-5xl lg:text-6xl">Transfrom your brand</h3>
-          <p className="text-gray-500 my-4 lg:my-8 lg:text-xl">
+          <h3 className="text-5xl lg:text-6xl" style={{fontFamily: 'Fraunces'}}>Transfrom your brand</h3>
+          <p className="text-gray-500 my-4 lg:my-8 lg:text-xl" style={{fontFamily: 'Barlow'}}>
             We are a full-service creative agency specializing in helping brands
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
-          <a href="#" className="border-b-4 border-b-yellow-500">
+          <a href="#" className="border-b-4 border-b-yellow-500 text-xl font-bold uppercase" style={{fontFamily: 'Fraunces'}}>
             Learn more
           </a>
         </div>

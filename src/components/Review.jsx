@@ -32,20 +32,20 @@ const userData = [
 function Review() {
   return (
     <div className="text-center py-[10rem] px-[3rem] lg:px-[5rem]">
-      <h3 className="uppercase text-2xl font-bold md:text-3xl">
+      <h3 className="uppercase text-2xl font-bold md:text-3xl text-[#5A636C]  tracking-widest" style={{fontFamily: 'Fraunces'}}>
         Client testimonials
       </h3>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-[5rem] md:gap-[2rem]">
         {userData.map((data, key) => (
-          <div key={data.name} className="py-[2rem] lg:py-[5rem]">
+          <div key={data.name} className="py-[2rem] lg:py-[5rem] ">
             <img
               src={data.img}
               alt={data.name}
               className="inline-block rounded-full"
             />
-            <p className="py-[2rem] lg:py-[5rem]">{data.content}</p>
-            <h4 className="font-bold">{data.name}</h4>
-            <p className="text-slate-400">{data.position}</p>
+            <p className="py-[2rem] lg:py-[5rem] text-[#5A636C]" style={{fontFamily: 'Barlow'}}>{data.content}</p>
+            <h4 className="font-bold " style={{fontFamily: 'Fraunces'}}>{data.name}</h4>
+            <p className="text-[#A7ABAE] pt-3" style={{fontFamily: 'Barlow'}}>{data.position}</p>
           </div>
         ))}
       </div>
