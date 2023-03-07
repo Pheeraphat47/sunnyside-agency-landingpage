@@ -27,7 +27,7 @@ function Nav() {
       <div className="logo mt-3 flex ">
         <a
           href="#"
-          className="text-white font-bold text-4xl lg:pl-8"
+          className="text-white font-bold text-4xl pl-4 lg:pl-8"
           style={{ fontFamily: "Fraunces" }}
         >
           sunnyside
