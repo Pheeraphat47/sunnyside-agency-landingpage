@@ -1,17 +1,33 @@
-*{
+* {
     scroll-behavior: smooth;
 }
 
+
+
+
 @media screen and (max-width: 767px) {
     .togmenu {
-        margin-top: 3rem;
+        margin-top: 7rem;
         box-shadow: 0 10px 40px hsla(0, 0%, 0%, 0.1);
         background-color: hsl(0, 0%, 100%);
-        width: 18em;
-        margin-left: auto;
-        margin-right: auto; 
-        padding-bottom: 2rem;       
-    }   
+        margin-left: 1em;
+        margin-right: 1em;
+        padding-bottom: 2rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+
+    .togmenu::before {
+        content: "";
+        position: absolute;
+        top: -19px;
+        right: -20px;
+        border: 20px solid transparent;        
+        border-left-color: white;
+        transform: rotate(45deg);
+    }
+
 
 
     li {
@@ -25,9 +41,11 @@
 
 }
 
-@media screen and (max-width: 320px) {
-    .togmenu{
-        width: 100%;        
+@media screen and (max-width: 320px) {   
+
+    #heading{
+        font-size: 2.1em;
     }
+
     
 }
